@@ -1,0 +1,13 @@
+<p>
+  In Smart From Dumb: <app-header [titleInDumb]="titleInSmart"></app-header>
+</p>
+
+
+<p>=== .ts in Smart ===</p>
+<p>titleInSmart = 'I am coming from in smart: app-work';</p>
+<p>=== .html in Smart ===</p>
+<p>empty child-tag: [titleInDumb]="titleInSmart"</p>
+<p>=== .ts in Dumb: ===</p>
+<p>@Input('titleInDumb') titleInSmart: string;</p>
+
+
